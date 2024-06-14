@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581D42672C1C140800D8F711 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 581D42662C1C140800D8F711 /* 1.jpg */; };
+		581D42692C1C164D00D8F711 /* PicProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581D42682C1C164D00D8F711 /* PicProcess.swift */; };
+		581D426B2C1C176000D8F711 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581D426A2C1C176000D8F711 /* TestView.swift */; };
 		58E12A5F2C1BD7B3005A9EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E12A5E2C1BD7B3005A9EF2 /* AppDelegate.swift */; };
 		58E12A612C1BD7B3005A9EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E12A602C1BD7B3005A9EF2 /* ContentView.swift */; };
 		58E12A632C1BD7B5005A9EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E12A622C1BD7B5005A9EF2 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581D42662C1C140800D8F711 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../1.jpg; sourceTree = "<group>"; };
+		581D42682C1C164D00D8F711 /* PicProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicProcess.swift; sourceTree = "<group>"; };
+		581D426A2C1C176000D8F711 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		58E12A5B2C1BD7B3005A9EF2 /* myARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E12A5E2C1BD7B3005A9EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E12A602C1BD7B3005A9EF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		581D42652C1C13B000D8F711 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				581D42662C1C140800D8F711 /* 1.jpg */,
+			);
+			path = pics;
+			sourceTree = "<group>";
+		};
 		58E12A522C1BD7B3005A9EF2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +65,13 @@
 		58E12A5D2C1BD7B3005A9EF2 /* myARApp */ = {
 			isa = PBXGroup;
 			children = (
+				581D42652C1C13B000D8F711 /* pics */,
 				58E12A5E2C1BD7B3005A9EF2 /* AppDelegate.swift */,
 				58E12A602C1BD7B3005A9EF2 /* ContentView.swift */,
 				58E12A622C1BD7B5005A9EF2 /* Assets.xcassets */,
 				58E12A642C1BD7B5005A9EF2 /* Preview Content */,
+				581D42682C1C164D00D8F711 /* PicProcess.swift */,
+				581D426A2C1C176000D8F711 /* TestView.swift */,
 			);
 			path = myARApp;
 			sourceTree = "<group>";
@@ -126,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E12A662C1BD7B5005A9EF2 /* Preview Assets.xcassets in Resources */,
+				581D42672C1C140800D8F711 /* 1.jpg in Resources */,
 				58E12A632C1BD7B5005A9EF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581D426B2C1C176000D8F711 /* TestView.swift in Sources */,
 				58E12A612C1BD7B3005A9EF2 /* ContentView.swift in Sources */,
+				581D42692C1C164D00D8F711 /* PicProcess.swift in Sources */,
 				58E12A5F2C1BD7B3005A9EF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"myARApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "myARApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = HF7MJGCV2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"myARApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "myARApp/Preview\\ Content";
 				DEVELOPMENT_TEAM = HF7MJGCV2J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
